@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 @Component({
     selector: 'app-header',
+    standalone: true,
     templateUrl: './header.component.html',
     styleUrls: ['./header.component.css'],
-    standalone: true,
-    template: `<header><h1>Welcome to My App</h1></header>`,
+    // inline `template` removed — using `templateUrl` instead
 
 })
 export class HeaderComponent {}
