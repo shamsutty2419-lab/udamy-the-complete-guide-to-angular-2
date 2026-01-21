@@ -8,6 +8,6 @@ const randomUserIndex = Math.floor(Math.random() * DUMMY_USERS.length);
   styleUrl: './user.css',
 })
 export class User {
-  privateselectedUser = DUMMY_USERS[randomUserIndex];
+  selectedUser = DUMMY_USERS[randomUserIndex];
 
 }
